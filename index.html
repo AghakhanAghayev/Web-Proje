@@ -1,13 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="Viewport" content="with-device-widht, initual-scale=1.0">
-     <title>Document</title>
-     <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1 id="title">Hello World!</h1>
-    </body>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Responsive Web Sitesi</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Yukarıda verdiğim CSS kodunu buraya yapıştırın */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .baslik {
+      text-align: center;
+      padding: 20px;
+    }
+    .navbar {
+      background-color: #333;
+    }
+    .navbar-brand, .navbar-nav .nav-link {
+      color: #fff;
+    }
+    .ana-icerik {
+      padding: 20px;
+    }
+    .altbilgi {
+      text-align: center;
+      padding: 20px;
+      background-color: #f8f9fa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="baslik">
+      <h1>Baku</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">Aghakhan Aghayev</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Ana Sayfa <span class="sr-only">(şu anki)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Özgeçmiş</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Şehrim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mirasımız</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Takımımız</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">İlgi Alanlarım</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Giriş Yap</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hakkımda -->
+    <div class="ana-icerik">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center">Hakkımda</h2>
+          <p>Merhaba, ben Aghakhan Aghayev. Sakarya Üniversitesi Bilgisayar Mühendisliği 1. sınıf öğrencisiyim.</p>
+          <p>Kendim hakkında daha fazla bilgi vermek gerekirse, bilgisayar bilimleri ve teknoloji ile ilgileniyorum. Boş zamanlarımda genellikle spor müsabakalarını izlemeyi, kod yazmayı ve yeni teknolojileri keşfetmeyi severim.</p>
+          <p>Ayrıca, spor yapmayı da seviyorum. Özellikle boks ve futbol ilgi alanlarımdandır. Spor yapmak, benim için hem fiziksel hem de zihinsel sağlığımı korumak için önemlidir.</p>
+          
+          <ul>
+            <li><a href="https://github.com/AghakhanAghayev">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+  
+    <footer class="altbilgi">
+      <p>Telif Hakkı &copy; 2024</p>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
