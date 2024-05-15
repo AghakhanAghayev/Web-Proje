@@ -1,0 +1,55 @@
+/* Genel stiller */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Başlık */
+  .baslik {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #333;
+  }
+  
+  .navbar-brand, .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+
+  .ana-icerik {
+    padding: 20px;
+  }
+  
+ 
+  .altbilgi {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .baslik {
+      text-align: center;
+      padding: 20px;
+    }
+    .navbar {
+      background-color: #333;
+    }
+    .navbar-brand, .navbar-nav .nav-link {
+      color: #fff;
+    }
+    .ana-icerik {
+      padding: 20px;
+    }
+    .altbilgi {
+      text-align: center;
+      padding: 20px;
+      background-color: #f8f9fa;
+    }
+  

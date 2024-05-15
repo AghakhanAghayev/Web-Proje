@@ -1,12 +1,98 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Baku</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakü - Şehrim</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .slider {
+            display: flex;
+            overflow: hidden;
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .slider img {
+            width: 100%;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slider img:hover {
+            transform: scale(1.1);
+        }
+
+        .slider a {
+            flex: 1;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        h2 {
+            margin-top: 20px;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-  <h1>Baku</h1>
-  
+    <h1>Bakü</h1>
+    
+    <div class="slider">
+        <a href="#iceri1"><img src="images/baku1.jpg" alt="Bakü Gezilecek Yerler"></a>
+        <a href="#iceri2"><img src="images/baku2.jpg" alt="Bakü Limanı"></a>
+        <a href="#iceri3"><img src="images/baku3.jpg" alt="Bakü Olimpiyat Stadyumu"></a>
+        <a href="#iceri4"><img src="images/baku4.jpg" alt="Bakü Formula 1 Pisti"></a>
+    </div>
+
+    <div class="content">
+        <p>
+            Bakü (Azerice: Bakı), Azerbaycan'ın, Hazar Denizi'nin batı kıyısında yer alan başkentidir. 
+            Kafkasya’nın en büyük şehri, en önemli kültür ve ticaret merkezidir. Ülkenin en doğusundaki ve en önemli sanayi, 
+            ticaret ve kültür merkezi olmanın yanı sıra bir liman kenti olarak da önemlidir. Şehirde yaşayanların büyük çoğunluğunu 
+            Azerbaycanlılar oluşturur. Resmî istatistiklere göre 2023'teki Bakü şehir nüfusu 2.336.600'dür. Kentin banliyöleri de dahil 
+            olduğu zaman şehrin toplam nüfusu yaklaşık 3.125.000 kişiye ulaşmaktadır, yani Azerbaycan nüfusunun üçte biri bu şehirde 
+            yaşamaktadır. Bakü 2015 Avrupa Olimpiyat Oyunları'na ev sahipliği yapmıştır. 2017'de ise 2017 İslami Dayanışma Oyunları'na 
+            ev sahipliği yapmıştır. Hem de Formula 1'e ev sahipliği yapmaktadır.
+        </p>
+
+        <h2 id="iceri1">Bakü Gezilecek Yerler</h2>
+        <p>
+            Bakü, tarihi ve modern yapılarıyla dikkat çeken bir şehir. İçerişehir, Kız Kalesi, Şirvanşahlar Sarayı gibi birçok tarihi mekanı gezebilirsiniz.
+        </p>
+        
+        <h2 id="iceri2">Bakü Limanı</h2>
+        <p>
+            Hazar Denizi'nin kıyısında yer alan Bakü Limanı, ticaretin kalbinde yer almaktadır. Liman, Azerbaycan'ın ekonomik faaliyetlerinin büyük bir kısmını barındırır.
+        </p>
+
+        <h2 id="iceri3">Bakü Olimpiyat Stadyumu</h2>
+        <p>
+            2015 Avrupa Olimpiyat Oyunları'na ev sahipliği yapan bu stadyum, modern mimarisi ve kapasitesiyle dikkat çekmektedir.
+        </p>
+
+        <h2 id="iceri4">Bakü Formula 1 Pisti</h2>
+        <p>
+            Bakü, Formula 1 yarışlarına ev sahipliği yapan şehirlerden biridir. Şehir içi sokaklarda gerçekleştirilen yarışlar, motor sporları tutkunları için büyük bir cazibe merkezi.
+        </p>
+    </div>
 </body>
 </html>
