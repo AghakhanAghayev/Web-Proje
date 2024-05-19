@@ -11,12 +11,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit; // Yönlendirmeden sonra scripti sonlandırın
     } else {
         // Başarısız giriş durumunda kullanıcıyı login sayfasına geri yönlendirin ve hata mesajı gösterin
-        header('Location: giriş.html?error=1');
+        header('Location: giris.html?error=1');
         exit;
     }
 } else {
     // Sayfa doğrudan erişilirse kullanıcıyı login sayfasına geri yönlendirin
-    header('Location: giriş.html');
+    header('Location: giris.html');
     exit;
 }
 ?>

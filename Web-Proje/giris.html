@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Login Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/girisyap.css">
+</head>
+<body class="login">
+    <div class="main login">
+        <h1 class="login">Login</h1>
+        <h3 class="login">Lütfen giriş bilgilerini girin</h3>
+        <form action="login.php" method="POST">
+            <label for="username" class="login">
+                Kullanıcı adı
+            </label>
+            <input type="text" 
+                   id="username"
+                   name="username" 
+                   placeholder="Kullanıcı adınızı girin" required
+                   class="login">
+
+            <label for="password" class="login">
+                Şifre:
+            </label>
+            <input type="password"
+                   id="password" 
+                   name="password" 
+                   placeholder="Şifrenizi girin" required
+                   class="login">
+
+            <div class="wrap login">
+                <button type="submit" class="login">
+                    Giriş yap
+                </button>
+            </div>
+        </form>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
