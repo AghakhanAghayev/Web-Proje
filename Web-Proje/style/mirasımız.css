@@ -1,0 +1,50 @@
+/* Genel stiller */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Konteyner stili */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Başlıklar */
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Görseller */
+img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+}
+
+/* Paragraflar */
+p {
+    color: #555;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Linkler */
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
